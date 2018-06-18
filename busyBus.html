@@ -11,7 +11,7 @@
   </head>
   <body>
     <div class ="topWrapper">
-      <img src="images\signal.png" style="height: 15px; margin-left: 240px; margin-top: 5px;"></img>
+      <img src="images\signal.png" style="height: 15px; margin-left: 285px; margin-top: 5px;"></img>
       <img src="images\network.png" style="height: 15px; margin-left: 5px;"></img>
       <img src="images\battery.png"  style="height: 15px; margin-left: 8px;"></img>
       <p>12:30</p>
@@ -21,39 +21,57 @@
       <h1 class ="stop">Washington and State</h1>
       <img src="images\magGlass.png" style="height: 20px; float: right; margin-top: -21px; margin-right: 25px;"></img>
     </div>
-        <div class ="route eastbound">
-          <h1>Eastbound</h1>
-            <h2>60 Randolph/Harbor Dr</h2>
-              <h3>Every 20 mins</h3>
-          <h2>124 Navy Pier</h2>
-            <h3>Every 10 mins</h3>
-        </div>
-        <div class ="route northbound">
-          <h1>Northbound</h1>
-            <h2>151 Devon/Clark</h2>
-              <h3>Every 16 mins</h3>
-        </div>
-        <div class ="route southbound">
-            <h1>Southbound</h1>
-              <h2>J14 103rd/Stony Island </h2>
-                <h3>Every 15 mins</h3>
-              <h2>124 Navy Pier</h2>
-                <h3>Every 10 mins</h3>
-        </div>
-        <div class ="route reroute">
-          <h1>Reroute</h1>
-            <h2>6x Jackson Park Express</h2>
-              <h3>N/A</h3>
-        </div>
-        <div class ="route outOfService">
-          <h1>Out of service</h1>
-            <h2>4 Cottage Grove</h2>
-              <h3>Resumes 12:10am</h3>
-          <h2>20 Madison</h2>
-              <h3>Resumes 12:10am</h3>
-          <h2>157 Streeterville/Taylor</h2>
-            <h3>Resumes 6:00am</h3>
-        </div>
+        <section class ="route eastbound">
+          <h1>EASTBOUND</h1>
+            <ul>
+              <li class ="bus">60 Randolph/Harbor Dr</li>
+                <li class ="arrival">5 mins</li>
+                  <li class ="onTime">on time</li>
+
+              <li class ="bus">124 Navy Pier</li>
+                <li class = "arrival">10 mins</li>
+                  <li class ="late">2 mins late</li>
+
+            </ul>
+        </section>
+        <section class ="route northbound">
+          <h1>NORTHBOUND</h1>
+            <ul>
+              <li class ="bus">151 Devon/Clark</li>
+                  <li class="arrival">16 mins</li>
+                    <li class ="onTime">on time</li>
+            </ul>
+        </section>
+        <section class ="route">
+            <h1>SOUTHBOUND</h1>
+              <ul>
+                <li class ="bus">J14 103rd/Stony Island </li>
+                  <li class="arrival">15 mins</li>
+                    <li class ="onTime">on time</li>
+                <li class ="bus">124 Navy Pier</li>
+                    <li class="arrival">10 mins</h3>
+                      <li class ="late">10 mins late</li>
+              </ul>
+        </section>
+        <section class ="route">
+          <h1>REROUTE</h1>
+            <ul>
+              <li class ="bus">6x Jackson Park Express</li>
+                <li class ="arrival">5 mins</li>
+                  <li class ="late">4 mins late</li>
+            </ul>
+        </section>
+        <section class ="route">
+          <h1>OUT OF SERVICE</h1>
+            <ul>
+              <li class ="bus">4 Cottage Grove</li>
+                <li class ="arrival">resumes 12:10am</li>
+              <li class ="bus">20 Madison</li>
+                <li class ="arrival">resumes 12:10am</li>
+              <li class = "bus">157 Streeterville/Taylor</li>
+                <li class ="arrival">resumes 6:00am</li>
+            </ul>
+        </section>
         <div></div>
         <div class ="bottomNavigation">
             <i class="fas fa-angle-left"></i>

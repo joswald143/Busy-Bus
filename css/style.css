@@ -1,10 +1,10 @@
 body {
   font-family: Roboto;
   font-size: 1em;
-  background-color: #caccce;
+  background-color: #ffffff;
 }
 .eastbound {
-  margin-top: -15px;
+  margin-top: 15px;
 }
 .topWrapper {
   background-color: #3F51B5;
@@ -16,7 +16,7 @@ body {
   box-shadow: 0px 4px 4px grey;
 }
 .stop {
-  font-size: 18px;
+  font-size: 20px;
   color: white;
   padding-left: 55px;
   margin-top: -18px;
@@ -32,8 +32,8 @@ body {
 }
 .route {
   padding-left: 18px;
-  padding-top: 40px;
-  line-height: 1.23em;
+  padding-top: 15px;
+  line-height: 1.5em;
 }
 p {
   color: #ffffff;
@@ -42,17 +42,10 @@ p {
   margin-top: 5px;
 }
 h1 {
+  font-size: 18px;
   font-weight: bold;
   letter-spacing: 1.5px;
-  margin-bottom: 2.5px;
-  text-decoration: underline;
-}
-h3 {
-  font-weight: 600;
-  text-align: right;
-  margin-top: -18px;
-  padding-right: 17px;
-  color: #303F9F
+  color: #303F9F;
 }
 .fas {
   color: #ffffff;
@@ -62,7 +55,7 @@ h3 {
 .fa-angle-left {
   color: #ffffff;
   font-size: 30px;
-  padding-left: 55px;
+  padding-left: 80px;
   margin-top: -12px;
 }
 .fa-circle {
@@ -75,3 +68,26 @@ h3 {
   font-size: 25px;
     padding-left: 89px;
 }
+.arrival{
+  float: right;
+  margin-top: -24px;
+  font-size: 18px;
+  margin-right: 16px;
+  color: #303F9F;
+  font-weight: bold;
+
+}
+.onTime {
+  font-size: 14px;
+  color: #27AE60;
+  line-height: 1.3em;
+  margin-bottom: 10px;
+}
+.bus {
+  font-size: 18px;
+  font-weight:bold;
+}
+.late {
+  font-size: 14px;
+  color: #EB5757;
+  line-height: 1.3em;
