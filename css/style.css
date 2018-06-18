@@ -91,3 +91,19 @@ h1 {
   font-size: 14px;
   color: #EB5757;
   line-height: 1.3em;
+}
+.arrivalTwo {
+  float: right;
+  color: #303F9F;
+  margin-right: 16px;
+  margin-top: -5px;
+  font-size: 14px;
+}
+.arrivalThree {
+  margin-left: 300px;
+  float: right;
+  color: #303F9F;
+  margin-right: 16px;
+  margin-top: -5px;
+  font-size: 14px;
+}
